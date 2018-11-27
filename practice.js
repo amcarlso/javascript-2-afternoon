@@ -15,6 +15,11 @@
 */
 
 //Code here
+let me = {
+  name: 'Allen',
+  age: 26
+}
+me.alert[0]
 
 
 
@@ -26,6 +31,14 @@
 */
 
 //Code here
+let favoriteThings = {
+  band: 'blink',
+  food: 'carne asada',
+  person: 'Jen',
+  book: 'tkam',
+  movie: 'fg',
+  holiday: 'cm'
+}
 
 
 
@@ -34,6 +47,8 @@
 */
 
 //Code here
+favoriteThings.car = 'audi'
+favoriteThings.brand = 'kroger'
 
 
 
