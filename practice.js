@@ -19,7 +19,7 @@ let me = {
   name: 'Allen',
   age: 26
 }
-// alert(me.name)
+alert(me.name)
 
 
 
@@ -119,7 +119,8 @@ var user2 = {
 */
 
 //Code Here
-let user3 = user2.assign({name: 'Tyler S. McGinnis', email: 'tyler.mcginnis@devmounta.in'})
+user2.name = 'Tyler S. McGinnis'
+user2.email = 'tyler.mcginnis@devmounta.in'
 
 
 
@@ -143,6 +144,7 @@ let user3 = user2.assign({name: 'Tyler S. McGinnis', email: 'tyler.mcginnis@devm
 */
 
 //Code Here
+let methodCollection = {}
 
 
 
@@ -152,6 +154,12 @@ let user3 = user2.assign({name: 'Tyler S. McGinnis', email: 'tyler.mcginnis@devm
 */
 
 //Code Here
+methodCollection.alertHello = function(){
+  alert('hello')
+}
+methodCollection.logHello = function(){
+  console.log('hello')
+}
 
 
 
@@ -160,6 +168,8 @@ let user3 = user2.assign({name: 'Tyler S. McGinnis', email: 'tyler.mcginnis@devm
 */
 
 //Code Here
+methodCollection.alertHello()
+methodCollection.logHello()
 
 
 
@@ -172,6 +182,14 @@ let user3 = user2.assign({name: 'Tyler S. McGinnis', email: 'tyler.mcginnis@devm
 
 //Code Here
 
+function makePerson(name, birthday, ssn) {
+  return {
+    name: name,
+    birthday: birthday,
+    ssn: ssn
+  }
+}
+
 
 
 ////////// PROBLEM 7 //////////
@@ -182,5 +200,12 @@ let user3 = user2.assign({name: 'Tyler S. McGinnis', email: 'tyler.mcginnis@devm
 */
 
 //Code Here
+function makeCard(cardNumber, expirationDate, securityCode) {
+  return {
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityCode: securityCode
+  }
+}
 
 
