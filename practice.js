@@ -19,7 +19,7 @@ let me = {
   name: 'Allen',
   age: 26
 }
-me.alert[0]
+// alert(me.name)
 
 
 
@@ -31,13 +31,13 @@ me.alert[0]
 */
 
 //Code here
-let favoriteThings = {
+var favoriteThings  = {
   band: 'blink',
   food: 'carne asada',
   person: 'Jen',
-  book: 'tkam',
-  movie: 'fg',
-  holiday: 'cm'
+  book: 'To Kill a Mockingbird',
+  movie: 'Forrest Gump',
+  holiday: 'Christmas'
 }
 
 
@@ -57,6 +57,8 @@ favoriteThings.brand = 'kroger'
 */
 
 //Code here
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 
 
@@ -71,6 +73,10 @@ favoriteThings.brand = 'kroger'
 */
 
 //Code here
+let backPack = {}
+
+let item = 'firstPocket'
+backPack[item] = 'chapstick'
 
 
 
@@ -79,6 +85,7 @@ favoriteThings.brand = 'kroger'
 */
 
 //Code here
+// alert(backPack)
 
 
 
@@ -89,7 +96,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+// console.log(backPack)
 
 
 ////////// PROBLEM 4 //////////
@@ -112,6 +119,7 @@ var user2 = {
 */
 
 //Code Here
+let user3 = user2.assign({name: 'Tyler S. McGinnis', email: 'tyler.mcginnis@devmounta.in'})
 
 
 
